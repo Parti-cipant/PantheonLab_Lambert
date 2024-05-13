@@ -51,7 +51,7 @@ class MNISTGANModel(LightningModule):
         # TODO: if you have time, try implementing a test step
         raise NotImplementedError
 
-    def step(self, batch, batch_idx, optimizer_idx=None) -> Tuple[Dict[str, Tensor], Optional[Tensor]]:
+    def step(self, batch, batch_idx, optimizer_idx) -> Tuple[Dict[str, Tensor], Optional[Tensor]]:
         # TODO: implement the step method of the GAN model.
         #     : This function should return both a dictionary of losses
         #     : and current loss of the network being optimised.

@@ -1,23 +1,14 @@
-# --------- pytorch --------- #
 torch>=1.8.1
 torchvision>=0.9.1
-pytorch-lightning==1.5.*
-
-# --------- hydra --------- #
+pytorch-lightning==2.0.*
 hydra-core==1.1.0
 hydra-colorlog==1.1.0
 hydra-optuna-sweeper==1.1.0
-
-# --------- loggers --------- #
 wandb
-
-# --------- linters --------- #
 pre-commit      # hooks for applying linters on commit
 black           # code formatting
 isort           # import sorting
 flake8          # code analysis
-
-# --------- others --------- #
 python-dotenv   # loading env variables from .env file
 rich            # beautiful text formatting in terminal
 pytest          # tests
