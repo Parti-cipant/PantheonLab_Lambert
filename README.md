@@ -9,7 +9,7 @@
 
 </div>
 
-## Answer to the Questions
+# Answer to the Questions
 
 * What is the role of the discriminator in a GAN model? Use this project's discriminator as an example.
 
@@ -28,6 +28,20 @@ Collect the data, set some basic rules, train the model, and then make it into a
 what can you do in pytorch lightning to make sure data is allocated to the correct GPU? 
 
 We can use a distributed mode of Distributed Data Parallel. 
+
+# Answer to Chatbot Assignment:
+
+* What are the parameters that can be used to control response. Explain in detail.
+
+First of all, the training data for the model is the fundamental factor. We also have a term called temperature, which is a parameter used in language generation models, such as GPT-based models, to control the randomness of the output. In addition, Various preprocessing and post-processing techniques can be applied to the input and output of the chatbot. The answer to the same question can be different in different situations.
+
+* Explore various techniques used in prompt engineering, such as template-based prompts, rule-based prompts, and machine learning-based prompts and provide what are the challenges and considerations in designing effective prompts with examples.
+
+Designing effective prompts requires a deep understanding of the capabilities and limitations of the AI model. It also involves iterative testing and refinement to ensure that the prompts elicit the desired responses. Ethical considerations must also be taken into account to avoid biases and inappropriate content generation.
+
+* What is retrieval-augmented generation(RAG) and how is it applied in natural language generation tasks?
+
+Retrieval-augmented generation (RAG) is a technique for enhancing the accuracy and reliability of generative AI models with facts fetched from external sources. RAG extends the capabilities of large language models by integrating them with an external knowledge source, such as a database or the internet. Working with a Retriever and a Generator, RAG can enrich the response of an AI model. When a query is received, the retriever component searches a dataset or knowledge base to find the most relevant information. Once the relevant information is retrieved, the generator component uses this context to produce a coherent and contextually rich response.
 
 ## What is all this?
 This "programming assignment" is really just a way to get you used to
